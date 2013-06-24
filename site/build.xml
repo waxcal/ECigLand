@@ -98,7 +98,7 @@
             print="true"
             classpathref="build.runtime.classpath"
             driver="org.hsqldb.jdbcDriver"
-            url="jdbc:hsqldb:hsql://localhost/broadleaf;ifexists=true"
+            url="jdbc:mysql://localhost:3306/ecigland;ifexists=true"
             userid="sa"
             password="">
             <transaction>SHUTDOWN</transaction>

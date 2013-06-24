@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mycompany.controller.cart;
+package com.waxapps.ecigland.controller.cart;
 
 
 import org.broadleafcommerce.core.catalog.domain.Product;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mycompany.controller.account;
+package com.waxapps.ecigland.controller.account;
 
 import org.broadleafcommerce.core.catalog.domain.Product;
 import org.broadleafcommerce.core.order.service.exception.AddToCartException;

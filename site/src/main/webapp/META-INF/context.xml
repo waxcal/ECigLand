@@ -42,7 +42,7 @@
               username="sa"
               password=""
               driverClassName="org.hsqldb.jdbcDriver"
-              url="jdbc:hsqldb:hsql://localhost/broadleaf"/>
+              url="jdbc:mysql://localhost:3306/ecigland"/>
 
     <Resource name="jdbc/secure"
               auth="Container"
@@ -64,5 +64,5 @@
               username="sa"
               password=""
               driverClassName="org.hsqldb.jdbcDriver"
-              url="jdbc:hsqldb:hsql://localhost/broadleaf"/>
+              url="jdbc:mysql://localhost:3306/ecigland"/>
 </Context>

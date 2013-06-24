@@ -1,5 +1,5 @@
 /*
- * Copyright 2008-2012 the original author or authors.
+ * Copyright 2012 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,23 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package com.waxapps.ecigland.admin.controller;
 
-package com.mycompany.controller.catalog;
-
-import org.broadleafcommerce.core.web.controller.catalog.BroadleafCategoryController;
 import org.springframework.stereotype.Controller;
+import org.broadleafcommerce.openadmin.web.controller.BroadleafAdminModulesController;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * This class works in combination with the CategoryHandlerMapping which finds a category based upon
- * the passed in URL.
+ *
+ * @author jfridye
+ * @see org.broadleafcommerce.openadmin.web.handler.AdminNavigationHandlerMapping
+ * Date: 9/12/12
+ * Time: 11:34 AM
  */
-@Controller("blCategoryController")
-public class CategoryController extends BroadleafCategoryController {
-    
+@Controller("blAdminModulesController")
+public class AdminModulesController extends BroadleafAdminModulesController {
+
     @Override
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
         return super.handleRequest(request, response);

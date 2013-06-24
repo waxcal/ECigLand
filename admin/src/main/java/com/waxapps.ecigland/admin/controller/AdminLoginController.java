@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mycompany.admin.controller;
+package com.waxapps.ecigland.admin.controller;
 
 import org.apache.commons.lang.StringUtils;
 import org.broadleafcommerce.openadmin.web.controller.BroadleafAdminLoginController;

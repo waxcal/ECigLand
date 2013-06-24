@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mycompany.controller.checkout;
+package com.waxapps.ecigland.controller.checkout;
 
 import org.broadleafcommerce.common.email.service.EmailService;
 import org.broadleafcommerce.common.email.service.info.EmailInfo;

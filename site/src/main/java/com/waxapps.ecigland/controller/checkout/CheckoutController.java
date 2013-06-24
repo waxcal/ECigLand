@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mycompany.controller.checkout;
+package com.waxapps.ecigland.controller.checkout;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.broadleafcommerce.common.exception.ServiceException;

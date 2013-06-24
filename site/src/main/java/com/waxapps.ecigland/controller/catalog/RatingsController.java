@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mycompany.controller.catalog;
+package com.waxapps.ecigland.controller.catalog;
 
 import javax.servlet.http.HttpServletRequest;
 
