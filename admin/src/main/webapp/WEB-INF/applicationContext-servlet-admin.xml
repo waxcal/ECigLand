@@ -48,7 +48,7 @@
     <mvc:resources order="-10" mapping="/resources/img/**" location="/admin/resources/img/" />
     <mvc:resources order="-10" mapping="/resources/css/**" location="/admin/resources/css/" />
     <mvc:resources order="-10" mapping="/resources/js/**" location="/admin/resources/js/" />
-    <mvc:resources order="-10" mapping="/com.waxapps.ecigland.gwt.eciglandAdmin/**" location="/admin/com.waxapps.ecigland.gwt.eciglandAdmin/" />
+    <mvc:resources order="-10" mapping="/com.waxapps.ecigland.gwt.waxappsAdmin/**" location="/admin/com.waxapps.ecigland.gwt.waxappsAdmin/" />
     <mvc:resources order="-10" mapping="/favicon.ico" location="/favicon.ico" />
     <mvc:resources order="-10" mapping="/robots.txt" location="/robots.txt" />
 
