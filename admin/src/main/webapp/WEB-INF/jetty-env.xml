@@ -20,8 +20,8 @@ IT IS NOT RECOMMENDED TO USE JETTY IN A PRODUCTION ENVIRONMENT.
         <New class="org.apache.commons.dbcp.BasicDataSource">
             <Set name="driverClassName">com.mysql.jdbc.Driver</Set>
             <Set name="url">jdbc:mysql://localhost:3306/ecigland</Set>
-            <Set name="username">root</Set>
-            <Set name="password"></Set>
+            <Set name="username">ecigland</Set>
+            <Set name="password">airhotelm</Set>
         </New>
     </Arg>
 </New>
@@ -32,8 +32,8 @@ IT IS NOT RECOMMENDED TO USE JETTY IN A PRODUCTION ENVIRONMENT.
         <New class="org.apache.commons.dbcp.BasicDataSource">
             <Set name="driverClassName">com.mysql.jdbc.Driver</Set>
             <Set name="url">jdbc:mysql://localhost:3306/ecigland</Set>
-            <Set name="username">root</Set>
-            <Set name="password"></Set>
+            <Set name="username">ecigland</Set>
+            <Set name="password">airhotelm</Set>
         </New>
     </Arg>
 </New>
@@ -44,8 +44,8 @@ IT IS NOT RECOMMENDED TO USE JETTY IN A PRODUCTION ENVIRONMENT.
         <New class="org.apache.commons.dbcp.BasicDataSource">
             <Set name="driverClassName">com.mysql.jdbc.Driver</Set>
             <Set name="url">jdbc:mysql://localhost:3306/ecigland</Set>
-            <Set name="username">root</Set>
-            <Set name="password"></Set>
+            <Set name="username">ecigland</Set>
+            <Set name="password">airhotelm</Set>
         </New>
     </Arg>
 </New>
