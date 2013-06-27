@@ -25,10 +25,30 @@
          for secure information such as payment info when in a PCI compliant situation, and/or for CMS
          if you wish to store content in a separate database. -->
 
-    <jee:jndi-lookup id="webDS" jndi-name="jdbc/web"/>
 
-    <jee:jndi-lookup id="webSecureDS" jndi-name="jdbc/secure"/>
 
-    <jee:jndi-lookup id="webStorageDS" jndi-name="jdbc/storage"/>
+	<bean id="webDS" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/ecigland" />
+		<property name="username" value="ecigland" />
+		<property name="password" value="airhotelm" />
+	</bean>
+
+	<bean id="webSecureDS" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/ecigland" />
+		<property name="username" value="ecigland" />
+		<property name="password" value="airhotelm" />
+	</bean>
+
+	<bean id="webStorageDS" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/ecigland" />
+		<property name="username" value="ecigland" />
+		<property name="password" value="airhotelm" />
+	</bean>
 
 </beans>

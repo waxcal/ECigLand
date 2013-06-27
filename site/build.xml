@@ -97,10 +97,10 @@
             autocommit="true"
             print="true"
             classpathref="build.runtime.classpath"
-            driver="org.hsqldb.jdbcDriver"
-            url="jdbc:hsqldb:hsql://localhost/broadleaf;ifexists=true"
-            userid="sa"
-            password="">
+            driver="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/ecigland;ifexists=true"
+            userid="ecigland"
+            password="airhotelm">
             <transaction>SHUTDOWN</transaction>
         </sql>
         <echo message="SQL Executed on data base..." />
